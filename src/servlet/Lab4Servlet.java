@@ -12,6 +12,8 @@ public class Lab4Servlet extends javax.servlet.http.HttpServlet {
         out.println("Data Inserted Successfully");
         String username = request.getParameter("username");
         out.println(username);
+        out.println("My changes in servlet");
+        out.println("Changes incorporated");
     }
 
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
